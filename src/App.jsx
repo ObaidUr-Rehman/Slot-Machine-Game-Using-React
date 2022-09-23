@@ -6,7 +6,7 @@ const App = () => {
     return <>
     <h1 className="heading_style"> 🎰 Welcome To <strong>Slot Machine Game</strong>🎰 </h1>
     
-    <div>
+    <div className="mydiv">
         <SlotMach x="❤" y="❤" z="❤"></SlotMach>
         <hr/>
         <SlotMach x="🖤" y="❤" z="😃"></SlotMach>
