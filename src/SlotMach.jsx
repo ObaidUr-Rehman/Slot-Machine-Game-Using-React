@@ -2,9 +2,7 @@ import React from "react";
 
 const SlotMach = (props) => {
 
-    // let x=props.x;
-    // let y=props.y;
-    // let z=props.z;
+    // let x=props.x; // let y=props.y; // let z=props.z;
     
     let {x,y,z} = props;   // Object Destruction
 
@@ -34,7 +32,5 @@ const SlotMach = (props) => {
             </>
         )
     }
-
 }
-
 export default SlotMach;
