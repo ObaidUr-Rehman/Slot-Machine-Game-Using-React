@@ -5,7 +5,6 @@ const SlotMach = (props) => {
     // let x=props.x; // let y=props.y; // let z=props.z;
     
     let {x,y,z} = props;   // Object Destruction
-
     if(x===y && y===z){
         return (
             <>
@@ -18,7 +17,6 @@ const SlotMach = (props) => {
             </>
         )
     }
-
     else{
         return (
             <>
